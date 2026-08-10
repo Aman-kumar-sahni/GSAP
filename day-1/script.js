@@ -43,7 +43,9 @@ gsap.to(".box",{
     rotate:360,duration:2,
     scrollTrigger:{
         trigger:".box",
-        markers:true
+        markers:true,
+        scrub:true,
+        pin:true
     }
 })
 gsap.from(".page3 h1",{
@@ -52,7 +54,9 @@ gsap.from(".page3 h1",{
     delay:1,
 x:-500,
 scrollTrigger:{
-    trigger:".page3 h3"
+    trigger:".page3 h3",
+    scrub:true,
+    
 }
 
 })

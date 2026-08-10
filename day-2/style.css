@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.page1{
+  background-color: rgb(102, 102, 184);
+  height:100%;
+  width:100%;
+}
+.page2{
+  background-color: rgb(122, 82, 160);
+  height:100%;
+  width:100%;
+
+}
+.page3{
+  background-color:rgb(146, 85, 85);
+  height:100%;
+  width:100%;
+}
+.page4{
+  background-color: rgb(128, 171, 85);
+  width:100%;
+  height:100%;
+}
+.page2 h1{
+  font-weight: bold;
+  font-size: 30vw;
+}
